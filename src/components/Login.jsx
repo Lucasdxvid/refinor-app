@@ -1,7 +1,7 @@
 import React from "react";
-import refinorLogo from "../assets/icons/refinorLogo.svg";
-import lock from "../assets/icons/lock.svg";
-import mail from "../assets/icons/mail.svg";
+import refinorLogo from "../assets/icons/loginForm/refinorLogo.svg";
+import lock from "../assets/icons/loginForm/lock.svg";
+import mail from "../assets/icons/loginForm/mail.svg";
 
 function Login() {
   return (
