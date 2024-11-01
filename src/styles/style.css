@@ -2,22 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Sk-Modernist-Custom";
+    src: url("../assets/fonts/Sk-Modernist-Bold.otf");
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: "Sk-Modernist-Custom";
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f5f5f5;
-}
-
-p {
-    color: #666;
-    margin-bottom: 20px;
+.icoOpacity {
+  opacity: 30%;
 }
