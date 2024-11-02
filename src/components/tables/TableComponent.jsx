@@ -15,13 +15,15 @@ const TableComponent = ({ columns, data }) => (
           ))}
         </tr>
       </thead>
-      <tbody className="text-gray-900 font-semibold text-sm">
+      <tbody className="text-gray-500 text-sm">
         {data.map((row, rowIndex) => (
           <tr key={rowIndex} className="hover:bg-gray-100">
-            {columns.map((col) => (
+            {columns.map((col, colIndex) => (
               <td
                 key={col.accessor}
-                className="py-3 px-6 text-left whitespace-nowrap"
+                className={`py-3 px-6 text-left whitespace-nowrap ${
+                  colIndex === 0 ? "font-semibold text-gray-800" : ""
+                }`}
               >
                 {row[col.accessor]}
               </td>
