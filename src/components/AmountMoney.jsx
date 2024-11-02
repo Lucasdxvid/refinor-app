@@ -4,13 +4,26 @@ export const AmountMoney = () => {
   return (
     <div className="flex gap-4">
       <div className="p-4 flex flex-col items-center max-w-60">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
           <img
             src={RefundAmountIcon}
             alt="Refund Amount"
             className="w-10 h-10"
           />
-          <span className="text-lg font-normal">
+          <span className="font-serif text-base font-normal leading-5 text-left text-slate-800">
+            Monto total de transacciones
+          </span>
+        </div>
+        <span className="font-semibold text-2xl">$700.000</span>
+      </div>
+      <div className="p-4 flex flex-col items-center max-w-60">
+        <div className="flex items-center gap-3">
+          <img
+            src={RefundAmountIcon}
+            alt="Refund Amount"
+            className="w-10 h-10"
+          />
+          <span className="font-serif text-base font-normal leading-5 text-left text-slate-800">
             Monto total de transacciones
           </span>
         </div>

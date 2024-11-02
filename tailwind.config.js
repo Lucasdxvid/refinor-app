@@ -8,6 +8,9 @@ export default {
         menuPrimary: "#FDFDF8",
         menuSecundary: "#F5F5F7",
       },
+      fontFamily: {
+        DM: ["Inter", "serif"],
+      },
     },
   },
   plugins: [],
