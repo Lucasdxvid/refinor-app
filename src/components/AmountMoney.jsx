@@ -3,9 +3,10 @@ import totalAmountIcon from "../assets/icons/amountBar/totalAmountIcon.svg";
 import manualTotalAmountIcon from "../assets/icons/amountBar/manualTotalAmountIcon.svg";
 import benefitAmountIcon from "../assets/icons/amountBar/benefitAmountIcon.svg";
 import refundAmountIcon from "../assets/icons/amountBar/refundAmountIcon.svg";
+
 export const AmountMoney = () => {
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 my-6 justify-center">
       <div className="p-4 flex items-start max-w-60 gap-5">
         <img src={totalAmountIcon} alt="Refund Amount" className="w-10 h-10" />
         <div className="flex flex-col items-start">

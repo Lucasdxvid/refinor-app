@@ -9,7 +9,6 @@ const Layout = ({ children }) => {
 
       {/* Main content */}
       <main className="flex-1 p-6 ml-64">
-        {/* Añadir margen izquierdo para la navbar */}
         <div className="container mx-auto">{children}</div>
       </main>
     </div>
