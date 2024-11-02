@@ -8,7 +8,8 @@ const Layout = ({ children }) => {
       <Navbar menuItems={adminMenu} />
 
       {/* Main content */}
-      <main className="flex-1 bg-gray-100 p-6">
+      <main className="flex-1 bg-gray-100 p-6 ml-64">
+        {/* Añadir margen izquierdo para la navbar */}
         <div className="container mx-auto">{children}</div>
       </main>
     </div>
