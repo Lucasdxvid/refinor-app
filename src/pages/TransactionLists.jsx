@@ -53,7 +53,7 @@ const TransactionLists = () => {
   return (
     <Layout>
       <h1 className="text-3xl font-semibold mb-6">Listado de Transacciones</h1>
-      <AmountMoney/>
+      <AmountMoney />
       <TableComponent columns={columns} data={data} />
     </Layout>
   );
