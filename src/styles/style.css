@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
-    font-family: "Sk-Modernist-Custom";
-    src: url("../assets/fonts/Sk-Modernist-Bold.otf");
+  font-family: "Sk-Modernist-Custom";
+  src: url("../assets/fonts/Sk-Modernist-Bold.otf");
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-font-family: "Sk-Modernist-Custom";
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: "Sk-Modernist-Custom"; */
 }
 
 .icoOpacity {

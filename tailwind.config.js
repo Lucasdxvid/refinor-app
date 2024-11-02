@@ -10,6 +10,7 @@ export default {
       },
       fontFamily: {
         DM: ["Inter", "serif"],
+        // modernist: ["Sk-Modernist-Custom", "sans-serif"],
       },
     },
   },
