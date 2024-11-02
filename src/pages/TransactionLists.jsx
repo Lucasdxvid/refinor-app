@@ -1,6 +1,7 @@
 import React from "react";
 import TableComponent from "../components/tables/TableComponent";
 import Layout from "./Layout";
+import { AmountMoney } from "../components/AmountMoney";
 
 const TransactionLists = () => {
   // Definición de las columnas
@@ -52,6 +53,7 @@ const TransactionLists = () => {
   return (
     <Layout>
       <h1 className="text-3xl font-semibold mb-6">Listado de Transacciones</h1>
+      <AmountMoney/>
       <TableComponent columns={columns} data={data} />
     </Layout>
   );
