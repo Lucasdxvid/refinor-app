@@ -9,8 +9,8 @@ import general from "../../assets/icons/nav/general.svg";
 
 const adminMenu = [
   { name: "Dashboard", icon: dashboardIcon, href: "#" },
-  { name: "Transacciones", icon: transactionsIcon, href: "#" },
-  { name: "Usuarios", icon: usersCompany, href: "#" },
+  { name: "Transacciones", icon: transactionsIcon, href: "/listado-transacciones" },
+  { name: "Usuarios", icon: usersCompany, href: "/listado-acceso" },
   { name: "Empresas", icon: usersCompany, href: "#" },
   { name: "Puntos Refinor", icon: refinorPoints, href: "#" },
   { name: "Recursos", icon: resources, href: "#" },
