@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles/style.css";
-import TransactionLists from "./pages/TransactionLists";
+import TransactionList from "./pages/TransactionList";
 
-createRoot(document.getElementById("root")).render(<TransactionLists />);
+createRoot(document.getElementById("root")).render(<TransactionList />);

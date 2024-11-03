@@ -3,7 +3,7 @@ import TableComponent from "../components/tables/TableComponent";
 import Layout from "./Layout";
 import { AmountMoney } from "../components/AmountMoney";
 
-const TransactionLists = () => {
+const TransactionList = () => {
   // Definición de las columnas
   const columns = [
     { Header: "Transacción", accessor: "transaccion" },
@@ -59,4 +59,4 @@ const TransactionLists = () => {
   );
 };
 
-export default TransactionLists;
+export default TransactionList;
